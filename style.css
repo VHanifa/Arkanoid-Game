@@ -1,0 +1,17 @@
+body {
+    padding: 20px 50px;
+    background: #000;
+    text-align: center;
+}
+#game {
+    width: 800px;
+    height: 600px;
+    box-shadow: 3px 3px 60px #ffff00,
+    -2px 1px 60px #9acd32;
+    margin: auto;
+    position: relative;
+}
+#game > * { position: absolute; }
+h1 {
+    text-align: center;
+}
